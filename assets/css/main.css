@@ -7,9 +7,11 @@
  * URL: http://blacktie.co
  */
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,600italic);
+
 body {
   background-color: #f2f2f2;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -20,7 +22,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #333;
 }
