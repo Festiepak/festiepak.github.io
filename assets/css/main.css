@@ -58,6 +58,54 @@ margin-top:55px
 
 
 
+/* Top Page Styles */
+
+#pagehead-form{
+  margin-top:40px;
+}
+
+
+.side-sel-box {
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  min-height:200px;
+}
+
+
+.side-sel{
+	transition:ease-in all .5s;
+}
+
+#side-sel0{
+  position:relative;
+  	width:180px;
+    visibility:hidden;
+}
+
+#side-sel1{
+    position:absolute;
+    margin-left:-170px;
+    margin-top:10px;
+    	width:180px;
+   }
+   
+
+
+#side-sel2{
+    position:absolute;
+    margin-left:-180px;
+        margin-top:-10px;
+    	width:180px;
+}
+
+#side-sel3{
+    position:absolute;
+    margin-left:-190px;
+        margin-top:10px;
+    	width:180px;
+   }
+
 
 /* Festebox Selection Icons */
 .col-icon{
@@ -226,3 +274,4 @@ i {
 	font-weight: 300;
 	letter-spacing: 1px;
 }
+
