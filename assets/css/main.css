@@ -282,9 +282,19 @@ margin-right:auto;
 
 @media (max-width:767px){
 
-#headerwrap h2{
-font-size:150%!important;
+#headerwrap {
+min-height:initial;
+padding-bottom:25px;
 }
+
+#headerwrap h2{
+font-size:5vw!important;
+}
+
+h3{
+  font-size:4vw;
+}
+
  .form-control{
    margin-left:auto;
    margin-right:auto;
@@ -292,8 +302,28 @@ font-size:150%!important;
 
 
 .box-box-icon{
- margin: 10px 40px; 
+ margin: 20px 50px; 
+ min-height:initial !important;
+  background-color:#F9F9F9; 
 }
+
+.box-box-back{
+
+}
+
+
+.socialmedia{
+width:125px;
+}
+
+.socialmedia:hover{
+width: 135px;
+
+}
+.socialh4{
+text-transform: none !important;
+}
+
 
 .team-team-col{
    margin: 10px 40px; 
