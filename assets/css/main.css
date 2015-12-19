@@ -282,13 +282,67 @@ margin-right:auto;
 
 @media (max-width:767px){
 
+.box-icon{
+	display:inline;
+	width:30vw !important;
+	transition:ease-in all .5s;
+}
+
+.box-icon2{
+	display:block;
+	margin-top:-30vw !important;
+	margin-right:auto;
+	margin-left:auto;
+	width:30vw !important;
+	transition:ease-in all .2s;
+	opacity:0
+}
+
+.box-icon:hover{
+	width:30vw !important;
+	transition:ease-in all 1s;
+}
+
+.box-box-icon{
+ margin: 20px 5vw; 
+ min-height:initial !important;
+  background-color:#F9F9F9; 
+}
+
+.box-box-icon p{
+font-size:3.5vw;
+}
+
+.box-box-box-icon{
+	margin-top:-3px;
+	margin-bottom:0px !important;
+	padding-bottom:2px;
+    min-height:initial !important;
+}
+
+.box-box-back{
+
+}
+
+.btn-lg{
+padding:4px 3px;
+font-size:15px
+}
+
+.form-control{
+height:30px;
+font-size:15px;
+margin-bottom:1px
+}
+
 #headerwrap {
 min-height:initial;
 padding-bottom:25px;
 }
 
 #headerwrap h2{
-font-size:5vw!important;
+font-size:4.5vw!important;
+margin:10px 0px 0px 0px !important;
 }
 
 h3{
@@ -301,15 +355,6 @@ h3{
  }
 
 
-.box-box-icon{
- margin: 20px 50px; 
- min-height:initial !important;
-  background-color:#F9F9F9; 
-}
-
-.box-box-back{
-
-}
 
 
 .socialmedia{
