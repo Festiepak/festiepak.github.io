@@ -31,6 +31,10 @@ h1 {
 	font-size: 40px;
 }
 
+h2 {
+  	font-size: 40px;
+}
+
 h3 {
 	color: #95a5a6;
 	font-weight: 400;
@@ -55,10 +59,13 @@ p {
 .socialmedia{
 padding:10px 40px;
 width:140px;
+transition:ease-in all .05s;
 }
 .socialmedia:hover{
 width: 150px;
 padding:0px 40px;
+margin-left:-5px;
+margin-right:-5px;
 }
 .socialh4{
 text-transform: none !important;
@@ -154,12 +161,15 @@ a:after {
 }
 
  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-top: 1em;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 1em;
+  padding: 0;
 }
 
 .navbar-default {
@@ -217,7 +227,7 @@ i {
     background-size: cover;
 }
 
-#headerwrap h1 {
+#headerwrap h2 {
 	margin-top:20px;
 	margin-bottom: 15px;
 	color: white;
@@ -226,3 +236,67 @@ i {
 	letter-spacing: 1px;
 }
 
+
+#midwrap {
+	/* background: url(../img/bg01.jpg) no-repeat center top; */
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	padding-top:50px;
+  	padding-bottom:50px;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	text-align:center;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hr-mid{
+  margin-top: 0px!important;
+  margin-bottom:0px !important;
+}
+
+
+#festie-team{
+  margin-top:50px;
+}
+
+
+.hr-short{
+margin-top:40px;
+max-width:400px;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+/* MOBILE SIZING @MEDIA's */
+
+@media (max-width:767px){
+
+#headerwrap h2{
+font-size:150%!important;
+}
+ .form-control{
+   margin-left:auto;
+   margin-right:auto;
+ }
+
+
+.box-box-icon{
+ margin: 10px 40px; 
+}
+
+.team-team-col{
+   margin: 10px 40px; 
+}
+
+}
