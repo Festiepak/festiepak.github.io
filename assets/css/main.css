@@ -66,6 +66,8 @@ width: 150px;
 padding:0px 40px;
 margin-left:-5px;
 margin-right:-5px;
+margin-top:0;
+margin-bottom:0;
 }
 .socialh4{
 text-transform: none !important;
@@ -358,15 +360,15 @@ h3{
 
 
 .socialmedia{
-width:55px;
-padding:10px 10px;
+width:15vw;
+padding:2vw 1vw;
+margin:-.5vw 2vw -.5vw 2vw;
 }
 
 .socialmedia:hover{
-width: 55px;
-padding:10px 10px;
-margin-left:-5px;
-margin-right:-5px;
+width: 16vw;
+padding: 1vw 1vw;
+margin:-.5vw 1.5vw -.5vw 1.5vw;
 }
 
 .socialh4{
