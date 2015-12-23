@@ -358,13 +358,17 @@ h3{
 
 
 .socialmedia{
-width:125px;
+width:55px;
+padding:10px 10px;
 }
 
 .socialmedia:hover{
-width: 135px;
-
+width: 55px;
+padding:10px 10px;
+margin-left:-5px;
+margin-right:-5px;
 }
+
 .socialh4{
 text-transform: none !important;
 }
