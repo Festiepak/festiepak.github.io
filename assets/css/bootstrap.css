@@ -4380,6 +4380,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-header {
     float: left;
   }
+  
+
 }
 
 .navbar-collapse {
@@ -4436,6 +4438,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
+    max-height:50px !important;
     padding-bottom: 0;
     overflow: visible !important;
   }
@@ -4769,11 +4772,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-color: #dddddd;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #FFFFFF;
-  color: #5D92D4;
-}
+
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #FFFFFF;
