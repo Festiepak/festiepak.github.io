@@ -22,45 +22,6 @@ body {
 
 
 
-.navbar-default {
-	background-color: #5D92D4;
-	border-color: transparent;
-   min-height: 50px;
-   max-height:50px;
-}
-
-.navbar-default .navbar-brand {
-	color: white;
-}
-
-
-@media (min-width:768px){
-.navbar-default .navbar-nav > li > a {
-	color: white;
-  font-weight:500;
-   transition:ease-out .2s all;
-
-}
-
-.navbar-default .navbar-nav > li > a:hover{
-   color:#437DC4;
-   background-color:#ffffff !important;
-   border:transparent !important;
-   padding-top:20px;
-   box-shadow:0px 1px 1px 0px #5A5A5A;
-   border-radius:0px 0px 2px 2px;
-   transition:ease-in .1s all;
-}
-
-.navbar-default .navbar-nav > li > a.active{
-  border-left: 0px solid #D1D1D1;
-  border-right: 0px solid #D1D1D1;
-  border-bottom: 2px solid #FFFFFF;
-  border-top: 0 solid #D1D1D1;
-  border-radius:0px 0px 2px 2px;
-}
-
-}
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
