@@ -9,6 +9,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,600italic);
 
+.brand-img{
+width:200px !important;
+margin-top:-3px !important;
+}
+
+
 body {
   background-color: #f2f2f2;
     font-family: 'Open Sans', sans-serif;
@@ -53,7 +59,14 @@ h4 {
    text-transform:uppercase;
 }
 
+#box-title-cont h1{
+ display:inline-block;
+}
 
+.box-check-icon{
+ display:inline-block;
+ margin-top:-20px;
+}
 
 /* Paragraph & Typographic */
 p {
