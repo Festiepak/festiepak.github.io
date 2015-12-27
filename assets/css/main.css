@@ -37,6 +37,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 40px;
+   font-weight:500;
+   color:#585858
 }
 
 #h1-large {
@@ -73,8 +75,42 @@ p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 16px;
+    
 }
 
+/*Necessities Row*/
+
+
+
+.nec-icons{
+ width:11vw;
+ max-width:160px;
+ min-width:130px;
+ border-radius:50%;
+ border:3px solid #EEEEEE;
+ background-color:#F8F8F8; 
+}
+
+@media (max-width:767px){
+ .nec-icons-top{
+    margin-bottom:50px;
+ }
+}
+
+.nec-icons:hover,
+.nec-icons:focus{
+background-color: #FFFFFF;
+border-color: #5D92D4;
+}
+
+.nec-col{
+   padding-left:0 !important;
+   padding-right:0 !important;
+}
+
+
+   /*Social Media Row*/
+   
 .socialmedia{
 padding:10px 40px;
 width:140px;
