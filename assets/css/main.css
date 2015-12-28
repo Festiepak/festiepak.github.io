@@ -14,7 +14,6 @@ width:200px !important;
 margin-top:-3px !important;
 }
 
-
 body {
   background-color: #f2f2f2;
     font-family: 'Open Sans', sans-serif;
@@ -26,6 +25,13 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.home-logo-img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  height: auto;
+  max-width: 90%;
+}
 
 
 /* Titles */
@@ -259,7 +265,7 @@ i {
 	padding-top:100px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 535px;
 	width: 100%;
 	text-align:center;
 	

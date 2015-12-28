@@ -2,9 +2,7 @@
 /* CSS Document */
 
  /*--------------------------- Main-page Festebox Selection Icons   ---------------------------*/
-.col-icon{
-	width:100%;
-}
+
 
 .box-box-icon{
 	border:3px solid transparent;
@@ -19,6 +17,17 @@
 	margin-top:-3px;
 	padding-bottom:25px;
     min-height:415px !important;
+}
+
+@media (min-width:768px) and (max-width:991px){
+ .box-box-icon{
+   margin-right:20%;
+   margin-left:20%;
+ }
+}
+
+.col-icon{
+	width:100%;
 }
 
 .box-info-page{
