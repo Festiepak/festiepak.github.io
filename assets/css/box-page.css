@@ -23,19 +23,47 @@
 }
 
 .box-page-head-container{
+  height:200px;
   background-color: #ffffff;
   border-radius: 2px;
   padding: 10px 0;
 }
 
 
-.box-title-cont h1{
+.box-title-cont{
  display:inline-block;
+ text-align:left;
+ height:190px;
+
+}
+  .box-title-cont h1{
+     font-size:40px;
+  }
+  .box-title-textbox{
+    display:inline;
+    height:50%;
+    margin-top:auto !important;
+    margin-bottom:auto !important;
+  }
+
+.ind-box-icon{
+ width:150px;
+ display:inline-block;
+ float:right;
 }
 
-.box-check-icon{
- display:inline-block;
- margin-top:-20px;
+@media (max-width:1199px) and (min-width:768px) {
+  .ind-box-icon{
+     width:12vw;
+  }
+  
+  .box-title-cont h1{
+     font-size:32px;
+     margin-bottom:-8px;
+  }
+  .box-title-cont h3{
+     font-size:20px
+  }
 }
 
 .panel-heading {
