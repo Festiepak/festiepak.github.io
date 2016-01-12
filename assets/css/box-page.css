@@ -91,14 +91,14 @@
   opacity:0;
   display:inline;
   position:relative;
-  width:20px;
-  margin:10px 40px 0 40px;
-    transition: ease-in .4s all;
+  width:15px;
+  margin:8px 40px 0 40px;
+    transition: ease-in .1s all;
 }
 
 .panel-heading:hover > .down-arrow{
   opacity:1;
-    margin:0 40px;
+    margin:-2px 40px 0 40px;
   transition: ease-in .2s all;
 }
 
