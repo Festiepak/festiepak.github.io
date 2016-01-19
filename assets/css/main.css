@@ -77,6 +77,16 @@ p {
     
 }
 
+/*spacers*/
+
+.col-spacer{
+height:4vw;
+max-height:50px;
+}
+
+
+
+
 /*Necessities Row*/
 
 
@@ -312,8 +322,6 @@ i {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
 	background-color: #FFFFFF;
 	margin-top: 0px;
-	padding-top:50px;
-  	padding-bottom:50px;
 	background-attachment: relative;
 	background-position: center center;
 	width: 100%;
