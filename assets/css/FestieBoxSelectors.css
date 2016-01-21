@@ -64,12 +64,91 @@
 
 
 
+
+
+
+
+  .col-box-lg{
+		position:relative;
+  }
+
+        .box-icon0A{
+           position:relative;
+           width:70%;
+           transition:ease-in all .4s;
+           opacity:1;
+        }
+        
+        .box-icon2A{
+           position:relative;
+           width:70%;
+           transition:ease-in all .4s;
+           opacity:1;
+        }
+        
+        .box-icon3A{
+           position:relative;
+           width:70%;
+           transition:ease-in all .4s;
+           opacity:1;
+        }
+		
+		.red-col{
+			position:absolute;
+			margin-left:33%;
+			opacity:0;
+		}
+		
+		.green-col{
+		    position:absolute;
+			margin-left:33%;
+			opacity:0;
+		}
+		
+		.blue-col{
+			position:relative;
+		    margin-left:33%;
+		}
+
+        .box-col1:hover .green-col,
+        .box-col1:focus .green-col {
+
+		  margin-left: 0;
+           opacity:1;
+           transition:ease-out all .7s;
+        }
+        
+        .box-col1:hover .red-col,
+        .box-col1:focus .red-col {
+
+		  margin-left: 66%;
+           opacity:1;
+           transition:ease-out all .7s;
+        }
+        
+        .box-col1:hover .box-icon0A,
+        .box-col1:focus .box-icon0A {
+             opacity:1;
+              transition:ease-out all .5s;
+        }
+
+
+
+
+
+
+
+
 .box-col3 > h4{
   font-size:36px !important;
   color:#555555;
   position:relative;
   z-index:3;
   transition: ease-in all .2s;
+}
+
+.box-col3 > p{
+  font-size: 24px;
 }
 
 .box-box-icon > p{
