@@ -51,6 +51,15 @@ h1 {
  font-size:60px 
 }
 
+.prep-h1{
+text-transform:uppercase;
+}
+
+.prep-h3{
+margin-top:0 !important;
+margin-bottom:30px !important;
+}
+
 h2 {
   	font-size: 40px;
 }
