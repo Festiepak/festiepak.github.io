@@ -6,108 +6,45 @@
 .box-col1{
 	padding-bottom:25px;
     min-height:415px !important;
+	  margin-right: -5vw;
+      margin-left: -5vw;
 }
 
 
         /* 3 Box Split Animation Section */
         
-        .box-icon{
-           display:inline;
-            position:relative;
-           width:200px;
-           transition:ease-in all .5s;
-        }
-        
-        .box-icon0{
-           position:absolute;
-           width:200px;
-           margin-left:-200px;
-           transition:ease-in all .4s;
-           opacity:0;
-        }
-        
-        .box-icon2{
-           position:absolute;
-           width:200px;
-           margin-left:-200px;
-           transition:ease-in all .4s;
-           opacity:0;
-        }
-        
-        .box-icon3{
-           position:absolute;
-           width:200px;
-           margin-left:-200px;
-           transition:ease-in all .4s;
-           opacity:0;
-        }
-        
-        .box-col1:hover .box-icon2,
-        .box-col1:focus .box-icon2 {
-          margin-left:50px !important;
-             opacity:1;
-              transition:ease-out all .7s;
-        }
-        
-        .box-col1:hover .box-icon3,
-        .box-col1:focus .box-icon3 {
-          margin-left:-450px !important;
-             opacity:1;
-              transition:ease-out all .7s;
-        }
-        
-        .box-col1:hover .box-icon0,
-        .box-col1:focus .box-icon0 {
-             opacity:1;
-              transition:ease-out all .5s;
-        }
-
-
-
-
-
-
 
   .col-box-lg{
 		position:relative;
   }
 
-        .box-icon0A{
-           position:relative;
-           width:70%;
-           transition:ease-in all .4s;
-           opacity:1;
-        }
-        
-        .box-icon2A{
-           position:relative;
-           width:70%;
-           transition:ease-in all .4s;
-           opacity:1;
-        }
-        
-        .box-icon3A{
-           position:relative;
-           width:70%;
-           transition:ease-in all .4s;
-           opacity:1;
+        .box-icon0A,
+		.box-icon2A,
+		.box-icon3A{ position:relative; width:55%; min-width:122px; opacity:1;
         }
 		
 		.red-col{
 			position:absolute;
-			margin-left:33%;
+			margin-left:33.33%;
+			margin-right:0;
 			opacity:0;
+			transition:ease-in all .5s;
+
 		}
 		
 		.green-col{
 		    position:absolute;
-			margin-left:33%;
+			margin-left:33.33%;
+			margin-right:0;
 			opacity:0;
+			 transition:ease-in all .5s;
+
 		}
 		
 		.blue-col{
 			position:relative;
-		    margin-left:33%;
+		    margin-left:33.33%;
+			margin-right:0;
 		}
 
         .box-col1:hover .green-col,
@@ -121,7 +58,7 @@
         .box-col1:hover .red-col,
         .box-col1:focus .red-col {
 
-		  margin-left: 66%;
+		  margin-left: 64%;
            opacity:1;
            transition:ease-out all .7s;
         }
@@ -131,9 +68,6 @@
              opacity:1;
               transition:ease-out all .5s;
         }
-
-
-
 
 
 
