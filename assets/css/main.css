@@ -89,16 +89,16 @@ p {
 /*spacers*/
 
 .col-spacer{
-height:4vw;
+height:6vw;
 max-height:50px;
 }
 
+@media (max-width: 991px){
 
+}
 
 
 /*Necessities Row*/
-
-
 
 .nec-icons{
  width:11vw;
@@ -124,6 +124,24 @@ border-color: #5D92D4;
 .nec-col{
    padding-left:0 !important;
    padding-right:0 !important;
+}
+
+
+.popover{
+border:2px solid #909090;
+border-radius:5px;
+color:#5D92D4;
+width:40%;
+height:45px;
+font-weight:700;
+font-size:20px;
+box-shadow: 1px 1px 1px 0px #C0C0C0 !important;
+line-height:5px;
+margin-top: 15px !important;
+}
+
+.arrow{
+
 }
 
 
