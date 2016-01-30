@@ -52,6 +52,11 @@ background-color: #ffffff;
 padding:20px !important;
 }
 
+.col-heading1 h1{
+  color:#5D92D4;
+  text-align:left;
+}
+
 .col-heading h1{
   color:#5D92D4;
   text-align:left;
