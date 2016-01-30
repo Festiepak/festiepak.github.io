@@ -47,6 +47,16 @@ h1 {
    color:#585858
 }
 
+.col-heading{
+background-color: #ffffff;
+padding:20px !important;
+}
+
+.col-heading h1{
+  color:#5D92D4;
+  text-align:left;
+}
+
 #h1-large {
  font-size:60px 
 }
