@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  background-color:#2980b9;
+ }
+
+.q-mark-container{
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+.q-mark-round{
+ margin-bottom:5vh;
+ margin-right:3vh;
+ width:30px;
+ float:right;
+ opacity:.6;
+  transition:.3s ease all;
+ }
+  .q-mark-round:hover{
+   opacity:1;
+   transition:.3s ease all;
+  }
+
+.container-logo{
+  position:relative;
+  height:auto;
+  margin-top:35vh;
+}
+
+.box-logo{
+  position:relative;
+  display:block;
+  height:8vw;
+  width:50vw;
+  margin:0 auto;
+}
+
+.logo-word{
+  position:absolute;
+  width:50vw;
+}
+
+.logo-cube{
+  position:absolute;
+  width:50vw;
+}
+
+.container-tagline{
+  position:relative;
+  width:100vw;
+  margin-top:0;
+}
+
+.box-tagline{
+  position:relative;
+  display:block;
+  width:50vw;
+  margin:0 auto;
+  font-family:"Poppins";
+  color:#ccc;
+}
+
+.box-tagline h2{
+  font-size:2vw;
+  font-weight:300 !important;
+ }
+
+@media (min-width:1200px){
+ .box-logo, .logo-word, .logo-cube, .box-tagline{
+   width:720px;}
+   
+ .box-logo{
+   height:113.5px;}
+}
+
+@media (min-width:992px) and (max-width:1199px){
+ .box-logo, .logo-word, .logo-cube, .box-tagline{
+   width:60vw;}
+   
+ .box-logo{
+   height:9.5vw;}
+}
+
+@media (min-width:768px) and (max-width:991px){
+ .box-logo, .logo-word, .logo-cube, .box-tagline{
+   width:70vw;}
+   
+ .box-logo{
+   height:11vw;}
+   
+ .box-tagline h2{
+  font-size:3vw;} 
+}
+
+@media (max-width:767px){
+ .box-logo, .logo-word, .logo-cube, .box-tagline{
+   width:80vw;}
+ 
+ .box-logo{
+   height:13vw;}
+ 
+ .box-tagline h2{
+  font-size:4vw;}   
+}
+
+@media (max-width:400px){
+ .box-logo, .logo-word, .logo-cube, .box-tagline{
+   width:90vw;}
+   
+ .box-tagline h2{
+  font-size:5vw;} 
+}
+
+
+
+/* Floaty Bounce & Keyframes for floaty bounce */
+
+.bounce {
+  -moz-animation: bounce 4s infinite;
+  -webkit-animation: bounce 4s infinite;
+  animation: bounce 4s infinite;
+}
+
+
+@-moz-keyframes bounce {
+  0%, 100% {
+    -moz-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  50% {
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+}
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  50% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+}
