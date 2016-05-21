@@ -3,6 +3,9 @@
 
 body{
   background-color:#2980b9;
+/*        animation: colorchange 50s infinite; 
+         
+      -webkit-animation: colorchange 50s infinite; */
  }
 
 .q-mark-container{
@@ -26,6 +29,15 @@ body{
    opacity:1;
    transition:.3s ease all;
   }
+
+.cube-modal{
+ position:relative;
+    display:inline-block;
+    margin-right:13px;
+    margin-top:-2px;
+    width:30px;
+    float:left;
+    }
 
 .container-logo{
   position:relative;
@@ -164,3 +176,18 @@ body{
   }
 
 }
+
+
+ @keyframes colorchange
+    {
+      0%   {background: #2980b9;}
+      50%  {background: #27ae60;}
+      100% {background: #2980b9;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #2980b9;}
+      50%  {background: #27ae60;}
+      100% {background: #2980b9;}
+    }

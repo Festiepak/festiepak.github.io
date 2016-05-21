@@ -5789,23 +5789,27 @@ button.close {
 }
 .modal-header {
   min-height: 16.42857143px;
-  padding: 15px;
+  padding: 20px 15px 15px 20px;
   border-bottom: 1px solid #e5e5e5;
 }
 .modal-header .close {
   margin-top: -2px;
+  font-size:30px;
 }
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  font-size:24px;
+  font-family:'Poppins', sans-serif;
+  font-weight:400;
 }
 .modal-body {
   position: relative;
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 .modal-footer {
  padding-top: 10px;
- padding-right: 10px;
+ padding-right: 20px;
  padding-left: 10px;
  text-align: right;
  border-top: 1px solid #e5e5e5;
